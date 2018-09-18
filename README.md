@@ -2,6 +2,8 @@
 
 Hi! If you are reading this you might be interested in working with us.
 
+We are Hash, and our mission is to enable anyone to build the best financial experience.
+
 We are contantly seeking people that want to change the way the payment market is structured today. We are building a new infrastructure that allows the entrance of new payment players on a R$1.4tri market dominated by a few companies for the past 15 years. We do this by offering a platform where any company can be their own payment service.
 
 To build this infrastructure, we need to build an amazing and scalable product. We need the best developers. "Move fast and break things" doesn't really work for the type of system that we build. We tend to reduce technical debt and prioritize quality over a fast release.

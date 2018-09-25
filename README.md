@@ -23,6 +23,8 @@ Technology is the most important part of our business, so we need people who wan
 
 If you can relate to our mission and want to join us, [check out our current open jobs](https://hashlab.workable.com/)
 
+# Key Values
+
 We've broken down some of our engineering team core values (thanks https://www.keyvalues.com/) to make our desired culture more transparent to everyone:
 
 ### High Quality Codebase

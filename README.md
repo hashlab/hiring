@@ -61,7 +61,7 @@ We think that we shouldn't push the work onto people, so we don't organize "spri
 
 Like any relationship, our company has a two-way value stream with the people that work here. As a company we would like to see our products thrive, and as developers people want to be able to unleash their creativity and we know that sometimes this might not be 100% aligned with our current product in the short-run, but in the long-run we believe that giving people time to do whatever they want will result in innovation and a healthier life. We support that people use roughly 20% of their work time to research or build anything they want, be it related to Hash or not.
 
-As for the company's growth, we dedicate time to understand if our processes are still attending to people's needs. We value context over blindly repeating processes, so we have to dedicate time to study the context continuously.
+As for the company's growth, we dedicate time to understand if our processes are still fullfilling people's needs. We value context over blindly repeating processes, so we have to dedicate time to study the context continuously.
  
 ## Fosters Psychological Safety
 

@@ -1,3 +1,8 @@
+# Index
+
+* [Hiring](#hiring)
+* [Key Values](#key-values)
+
 # Hiring
 
 Hi! If you are reading this you might be interested in working with us.
@@ -82,3 +87,5 @@ We know that people have strength to do this, but we also know sometimes they ha
 ## Product-driven
 
 Our product is complex and we are on an ecosystem of legacy systems and huge players. We were not the first company on this market, we do not have all the features - yet - so we need to be the best. We are building it to the long run. We do not customize our solution to one person or team, instead we develop features that will attend those individual needs in a broad manner. We strive to design the best usability to make our awesome tech tangible to people.
+
+

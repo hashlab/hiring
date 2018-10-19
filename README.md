@@ -17,7 +17,7 @@ We are not attached to a specific set of programming languages or architecture, 
 
 Today we are building:
 
-* Horizontally scalable micro-services written mostly in Node.js or Clojure
+* Horizontally scalable micro-services written mostly in Node.js or Go
 * Data storage in MongoDB and Postgres
 * Continuous Integration and Deployment into AWS, GCLOUD and Azure
 * A highly modular front-end that integrates the design team in the development process

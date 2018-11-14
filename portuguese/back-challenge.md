@@ -1,7 +1,10 @@
 # Hash Teste Back-end
 
-Esse teste consiste em escrever 2 microserviços que possibilitam retornar uma lista de produtos
-com desconto personalizado para cada usuário.
+Antes de começar, leia os nossos [key values](https://github.com/hashlab/hiring/blob/master/README.md) para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
+
+O teste consiste em escrever 2 microserviços que possibilitam retornar uma lista de produtos com desconto personalizado para cada usuário.
+
+Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!). Em até uma semana marcaremos uma conversa com você após analisarmos seu desafio.
 
 ## Restrições
 
@@ -12,10 +15,10 @@ com desconto personalizado para cada usuário.
 
 ## Avaliação
 
-1. Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!)
-2. Em até uma semana marcaremos uma conversa com você após analisarmos seu desafio
-3. Conversaremos sobre a estrutura do código, escolha do banco, e outras decisões que foram tomadas
-4. Discutiremos como esse sistema evoluiria ao longo do tempo
+1. Conversaremos sobre a estrutura do código, escolha do banco, e outras decisões que foram tomadas
+2. Discutiremos como esse sistema evoluiria ao longo do tempo
+3. Considere que as regras de descontos irão mudar com o tempo
+4. Considere que mais pessoas irão trabalhar junto com você nesse projeto
 
 ## Serviço 1: Desconto invidual de produto
 

@@ -2,7 +2,7 @@
 
 Antes de começar, leia os nossos [key values](https://github.com/hashlab/hiring/blob/master/README.md) para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
 
-O teste consiste criar uma infraestrutura para colocar este projeto aqui [link pro desafio do pedro TBD](#) em produção dentro de um cluster escalável, resiliente, altamente disponível, e fácilmente reprodutível. Esse serviço é apenas o resultado do nosso [desafio de back end](https://github.com/hashlab/hiring/blob/master/challenges/pt-br/back-challenge.md).
+O teste consiste criar uma infraestrutura para colocar este projeto aqui [link TBD](#) em produção dentro de um cluster escalável, resiliente, altamente disponível, e fácilmente reprodutível. Esse serviço é apenas o resultado do nosso [desafio de back end](https://github.com/hashlab/hiring/blob/master/challenges/pt-br/back-challenge.md).
 
 Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!). Em até uma semana marcaremos uma conversa com você após analisarmos seu desafio.
 

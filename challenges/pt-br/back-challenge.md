@@ -48,9 +48,11 @@ Usuário exemplo:
 }
 ```
 
-* A função de desconto será baseada na data de nascimento do usuário
+* As regras de descontos da aplicação são:
+  * Se for aniversário do usuário, o produto terá 5% de desconto
+  * Se for black friday (nesse exemplo ela pode ser fixada dia 25/11) o produto terá 10% de desconto
+  * O desconto não pode passar de 10%
 
-* Caso a data de nascimento seja 29 de fevereiro, o serviço deve retornar um erro qualquer.
 
 ## Serviço 2: Listagem de produtos
 * Expõe uma rota HTTP tal que `GET /product` retorne um json com uma

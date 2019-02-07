@@ -13,4 +13,4 @@ O resultado esperado seria, por exemplo, uma lib feita por você que nos mostras
 
 1. Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!)
 2. Em até uma semana marcaremos uma conversa com você após analisarmos seu desafio
-3. Conversaremos sobre a estrutura do código e outras decisões que foram tomadas
+3. Conversaremos sobre a estrutura do código e outras decisões que foram tomadas, não tenha medo de registrar suas decisões e seus motivos!

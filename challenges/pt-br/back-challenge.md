@@ -41,7 +41,7 @@ Produto exemplo:
 Usuário exemplo:
 ```
 {
-    id: string: string
+    id: string
     first_name: string
     last_name: string
     date_of_birth: Date

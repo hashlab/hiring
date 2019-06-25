@@ -4,7 +4,7 @@ Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) p
 
 O teste consiste em construir uma aplicação mobile nativa (Android ou iOS) consumindo a API REST disponível [neste site](https://jsonplaceholder.typicode.com/). A aplicação pode ser construída utilizando um framework cross-platform (ex.: React Native ou Ionic), mas aplicações nativas são preferidas.
 
-Especificamente, a aplicação por você construída deve consumir os _endpoints_ `/posts`, `/comments` e `/users`, exibindo uma lista de posts (organizados em ordem cronológica), cada um seu conteúdo, com uma lista de comentários (também organizados em ordem cronológica) e com o nome do usuário que criou o post.
+Especificamente, a aplicação por você construída deve consumir os _endpoints_ `/posts`, `/comments` e `/users`, exibindo uma lista de posts (organizados em ordem cronológica), cada um com seu conteúdo textual, com uma lista de comentários (também organizados em ordem cronológica), e com o nome do usuário que criou o post.
 
 Não especificaremos como a interface de usuário da aplicação deve ser construída. Sinta-se à vontade para utilizar o modelo de interface que acreditar ser melhor, assumindo que a aplicação construída será uma espécie de "rede social". As únicas restrições em relação à estrutura da aplicação são as especificadas pelo parágrafo acima.
 

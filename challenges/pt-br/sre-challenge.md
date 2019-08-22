@@ -2,7 +2,7 @@
 
 Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
 
-O teste de SRE é dividido em **arquitetura** e **desenvolvimento** que complementa o [desafio de back end](https://github.com/hashlab/hiring/blob/master/challenges/pt-br/back-challenge.md).
+O teste de SRE é dividido em **arquitetura** e **desenvolvimento** e complementa o [desafio de back end](https://github.com/hashlab/hiring/blob/master/challenges/pt-br/back-challenge.md).
 
 > Se você estiver fazendo parte do processo seletivo iremos enviar um arquivo zip com o desafio de backend
 

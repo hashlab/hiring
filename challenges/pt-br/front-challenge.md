@@ -39,4 +39,22 @@ A taxa de recebimento antecipado é sempre proporcional ao tempo em que a parcel
 
 Desse modo, para o lojista receber a primeira parcela no dia seguinte da venda, precisamos antecipar, aproximadamente, 1 mês. Logo, a taxa de recebimento antecipado vai incidir uma vez. Já a segunda parcela precisaria ser antecipada em 2 meses, logo, a taxa de recebimento antecipado incide 2x. A terceira parcela seria antecipada em 3 meses, sendo a taxa de recebimento antecipado multiplicada por 3 nessa parcela.
 
+#### Exemplo com números:
+
+**Transação**
+
+| Valor      | Parcelas | MDR |
+| ---------- | -------- | --- |
+| R$ 150,00  | 3x       | 4%  |
+
+
+**Antecipação Total**
+
+| Parcela | Recebível | Com Atencipação  |
+| ------  | --------- | ---------------- |
+| 1       | R$ 48,00  | R$ 46,08         |
+| 2       | R$ 48,00  | R$ 44,16         |
+| 3       | R$ 48,00  | R$ 42,24         |
+|         |           | Total: **R$ 132,48** |
+
 **² Taxa de MDR é uma porcentagem do valor da sua venda que é cobrada diretamente dos seus recebíveis.**

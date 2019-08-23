@@ -29,7 +29,7 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
     - 30 dias
     - 60 dias
 - O cálculo deve ser executado assim que os campos estiverem válidos
-- Mantenha o layout pixel by pixel como proposto no link
+- Mantenha o layout pixel by pixel conforme proposto no link
 
 ## Biblioteca de Cálculo de Antecipação
 

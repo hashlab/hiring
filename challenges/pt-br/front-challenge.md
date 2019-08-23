@@ -10,7 +10,7 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 
  1. Não é permitido utilizar frameworks, como React, Vue.js, Angular.
  2. São permitidas ferramentas modernas de desenvolvimento como TypeScript, Babel, eslint, webpack, assim como o uso de polyfills (e outras ferramentas para melhorar o suporte a browsers, como o Modernizr) e/ou bibliotecas para testes.
- 3. É permitido pré processadores de CSS ou CSS-in-JS
+ 3. São permitidos pré-processadores de CSS ou ferramentas CSS-in-JS.
 
 ## Avaliação
 

@@ -14,7 +14,7 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 
 ## Avaliação
 
-1. Conversaremos sobre a estrutura do código, a forma como o projeto foi organizado, e outras decisões que foram tomadas
+1. Conversaremos sobre a estrutura do código, a forma como o projeto foi organizado, e outras decisões que foram tomadas.
 2. Discutiremos como esse sistema evoluiria ao longo do tempo
 3. Considere que mais pessoas irão trabalhar junto com você nesse projeto
 

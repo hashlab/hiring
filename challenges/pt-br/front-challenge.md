@@ -23,7 +23,7 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 [Link para o layout](https://zpl.io/ameEPBe)
 
 - Todos os campos são obrigatórios
-- A data de recebimento devem ser fixas nos seguintes periodos: (como apresentado no layout)
+- A data de recebimento deve ser fixada nos seguintes periodos: (como apresentado no layout)
     - Amanhã
     - 15 dias
     - 30 dias

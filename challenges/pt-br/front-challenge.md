@@ -20,7 +20,7 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 
 ## Formulário de Simulação da Antecipação
 
-[Link para o layout](https://zpl.io/ameEPBe)
+[Link para o layout](https://www.figma.com/file/ipV80xJ29T7rdz0Aoo7xWv/Antecipation?node-id=0%3A1)
 
 - Todos os campos são obrigatórios
 - A data de recebimento deve ser fixada nos seguintes periodos: (como apresentado no layout)

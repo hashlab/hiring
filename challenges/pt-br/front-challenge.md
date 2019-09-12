@@ -24,11 +24,11 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 [Link para o layout](https://www.figma.com/file/ipV80xJ29T7rdz0Aoo7xWv/Antecipation?node-id=0%3A1)
 
 - Todos os campos são obrigatórios
-- A data de recebimento deve ser fixada nos seguintes periodos: (como apresentado no layout)
-    - Amanhã
-    - 15 dias
-    - 30 dias
-    - 60 dias
+- A data de recebimento do **valor total da compra** deve ser fixada nos seguintes periodos: (como apresentado no layout)
+    - Amanhã, quanto eu receberia se antecipasse tudo
+    - 15 dias, quanto eu receberia se antecipasse tudo
+    - 30 dias, quanto eu receberia se antecipasse tudo
+    - 60 dias, quanto eu receberia se antecipasse tudo
 - O cálculo deve ser executado assim que os campos estiverem válidos
 - Mantenha o layout pixel by pixel conforme proposto no link
 

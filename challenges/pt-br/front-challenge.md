@@ -8,9 +8,10 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 
 ## Restrições
 
- 1. Não é permitido utilizar frameworks e/ou bibliotecas de UI, como React, Vue.js, Angular.
+ 1. Não é permitido utilizar frameworks e/ou bibliotecas de UI, como React, Vue.js, Angular e JSX (queremos ver a sua habilidade com JS e DOM).
  2. São permitidas ferramentas modernas de desenvolvimento como TypeScript, Babel, eslint, webpack, assim como o uso de polyfills (e outras ferramentas para melhorar o suporte a browsers, como o Modernizr) e/ou bibliotecas para testes.
  3. São permitidos pré-processadores de CSS ou ferramentas CSS-in-JS.
+ 4  Não é uma regra, mas evite usar lodash, underscore, ramda e similares.
 
 ## Avaliação
 
@@ -58,3 +59,7 @@ Desse modo, para o lojista receber a primeira parcela no dia seguinte da venda, 
 |         |           | Total: **R$ 132,48** |
 
 **² Taxa de MDR é uma porcentagem do valor da sua venda que é cobrada diretamente dos seus recebíveis.**
+
+#### Exemplo animado baseado nessa tabela anterior
+
+![](anticipation.gif)

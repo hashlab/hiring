@@ -2,16 +2,21 @@
 
 Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
 
-O teste consiste desenvolver um simulador de antecipação de recebíveis composto por um formulário para o usuário interagir e uma biblioteca para executar o cálculo.
+O teste consiste desenvolver um simulador de antecipação de recebíveis composto por:
+
+- App com formulário para o usuário interagir.
+- Biblioteca para executar o cálculo de recebíveis.
+
+**Lembre-se, escreva testes automatizados.**
 
 Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!). Em até uma semana marcaremos uma conversa com você após analisarmos seu desafio.
 
 ## Restrições
 
- 1. Não é permitido utilizar frameworks e/ou bibliotecas de UI, como React, Vue.js, Angular e JSX (queremos ver a sua habilidade com JS e DOM).
- 2. São permitidas ferramentas modernas de desenvolvimento como TypeScript, Babel, eslint, webpack, assim como o uso de polyfills (e outras ferramentas para melhorar o suporte a browsers, como o Modernizr) e/ou bibliotecas para testes.
- 3. São permitidos pré-processadores de CSS ou ferramentas CSS-in-JS.
- 4. Não é uma regra, mas evite usar lodash, underscore, ramda e similares.
+1.  Não é permitido utilizar frameworks e/ou bibliotecas de UI, como React, Vue.js, Angular e JSX (queremos ver a sua habilidade com JS e DOM).
+2.  São permitidas ferramentas modernas de desenvolvimento como TypeScript, Babel, eslint, webpack, assim como o uso de polyfills (e outras ferramentas para melhorar o suporte a browsers, como o Modernizr) e/ou bibliotecas para testes.
+3.  São permitidos pré-processadores de CSS ou ferramentas CSS-in-JS.
+4.  Não é uma regra, mas evite usar lodash, underscore, ramda e similares.
 
 ## Avaliação
 
@@ -25,10 +30,10 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 
 - Todos os campos são obrigatórios
 - A data de recebimento do **valor total da compra** deve ser fixada nos seguintes periodos: (como apresentado no layout)
-    - Amanhã, quanto eu receberia se antecipasse tudo
-    - 15 dias, quanto eu receberia se antecipasse tudo
-    - 30 dias, quanto eu receberia se antecipasse tudo
-    - 60 dias, quanto eu receberia se antecipasse tudo
+  - Amanhã, quanto eu receberia se antecipasse tudo
+  - 15 dias, quanto eu receberia se antecipasse tudo
+  - 30 dias, quanto eu receberia se antecipasse tudo
+  - 60 dias, quanto eu receberia se antecipasse tudo
 - O cálculo deve ser executado assim que os campos estiverem válidos
 - Mantenha o layout pixel by pixel conforme proposto no link
 
@@ -46,17 +51,16 @@ Desse modo, para o lojista receber a primeira parcela no dia seguinte da venda, 
 
 | Valor      | Parcelas | MDR |
 | ---------- | -------- | --- |
-| R$ 150,00  | 3x       | 4%  |
-
+| R\$ 150,00 | 3x       | 4%  |
 
 **Antecipação Total**
 
-| Parcela | Recebível | Com Atencipação  |
-| ------  | --------- | ---------------- |
-| 1       | R$ 48,00  | R$ 46,08         |
-| 2       | R$ 48,00  | R$ 44,16         |
-| 3       | R$ 48,00  | R$ 42,24         |
-|         |           | Total: **R$ 132,48** |
+| Parcela | Recebível | Com Atencipação       |
+| ------- | --------- | --------------------- |
+| 1       | R\$ 48,00 | R\$ 46,08             |
+| 2       | R\$ 48,00 | R\$ 44,16             |
+| 3       | R\$ 48,00 | R\$ 42,24             |
+|         |           | Total: **R\$ 132,48** |
 
 **² Taxa de MDR é uma porcentagem do valor da sua venda que é cobrada diretamente dos seus recebíveis.**
 

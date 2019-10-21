@@ -19,7 +19,7 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 
 ## Como Avaliaremos seu Teste Técnico
 
-O que esperamos ver no seu teste técnico:
+Sua performance será avaliada com base nos seguintes pontos:
 
 1. **Organização do projeto** pensando em **escala de novas funcionalidades**, tanto sistema de arquivos como organização do código em si (nome de arquivos, nome de variáveis, etc)
 2. Se o **layout está idêntico (pixel by pixel)** como proposto no documento do Figma (link logo abaixo)

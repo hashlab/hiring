@@ -31,7 +31,7 @@ Sua performance será avaliada com base nos seguintes pontos:
 1. Maior cobertura de testes
 2. Conte uma história do projeto em commits (preferêncialmente em inglês)
 3. Escreva um bom [README.md (exemplo)](https://github.com/elsewhencode/project-guidelines/blob/master/README.sample.md), se possível com a documentação de como consumir a biblioteca de cálculos.
-  3.1 Caso adicione um passo a passo de como executar o seu teste, garanta que ele esteja funcionando.
+   * Caso adicione um passo a passo de como executar o seu teste, garanta que ele esteja funcionando.
 4. Garanta a qualidade do código usando eslint, pre-commit, e outras boas práticas
 
 ## Formulário de Simulação da Antecipação

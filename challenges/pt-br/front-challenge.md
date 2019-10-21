@@ -1,13 +1,12 @@
 # Hash Teste Front-end
 
-Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
+Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e **faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço** ;)
 
 O teste consiste desenvolver um simulador de antecipação de recebíveis composto por:
 
-- App com formulário para o usuário interagir.
-- Biblioteca para executar o cálculo de recebíveis.
-
-**Lembre-se, escreva testes automatizados.**
+> - App com formulário para o usuário interagir.
+> - Biblioteca para executar o cálculo de recebíveis
+>   - Parcelamento máximo de 12x
 
 Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!). Em até uma semana marcaremos uma conversa com você após analisarmos seu desafio.
 
@@ -18,15 +17,26 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 3.  São permitidos pré-processadores de CSS ou ferramentas CSS-in-JS.
 4.  Não é uma regra, mas evite usar lodash, underscore, ramda e similares.
 
-## Avaliação
+## Como Avaliaremos seu Teste Técnico
 
-1. Conversaremos sobre a estrutura do código, a forma como o projeto foi organizado, e outras decisões que foram tomadas.
-2. Discutiremos como esse sistema evoluiria ao longo do tempo.
-3. Considere que mais pessoas irão trabalhar junto com você nesse projeto.
+O que esperamos ver no seu teste técnico:
+
+1. **Organização do projeto** pensando em **escala de novas funcionalidades**, tanto sistema de arquivos como organização do código em si (nome de arquivos, nome de variáveis, etc)
+2. Se o **layout está idêntico (pixel by pixel)** como proposto no documento do Figma (link logo abaixo)
+3. Que a calculadora de antecipação **apresente os cálculos corretos**. Lembre-se, na hora da avaliação **testaremos outros valores** além do exemplo abaixo.
+4. **Testes automatizados da biblioteca** de cálculo. Aproveite para **testar o parcelamento máximo (12x)**.
+
+## Recomendações
+
+1. Maior cobertura de testes
+2. Conte uma história do projeto em commits (preferêncialmente em inglês)
+3. Escreva um bom [README.md (exemplo)](https://github.com/elsewhencode/project-guidelines/blob/master/README.sample.md), se possível com a documentação de como consumir a biblioteca de cálculos.
+  3.1. Caso adicione um passo a passo de como executar o seu teste, garanta que ele esteja funcionando.
+4. Garanta a qualidade do código usando eslint, pre-commit, e outras boas práticas
 
 ## Formulário de Simulação da Antecipação
 
-[Link para o layout](https://www.figma.com/file/ipV80xJ29T7rdz0Aoo7xWv/Antecipation?node-id=0%3A1)
+[Link para o layout](https://www.figma.com/file/ipV80xJ29T7rdz0Aoo7xWv/Antecipation?node-id=0%3A1) - **Lembrando que deve ser pixel by pixel**
 
 - Todos os campos são obrigatórios
 - A data de recebimento do **valor total da compra** deve ser fixada nos seguintes periodos: (como apresentado no layout)
@@ -35,7 +45,6 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
   - 30 dias, quanto eu receberia se antecipasse tudo
   - 60 dias, quanto eu receberia se antecipasse tudo
 - O cálculo deve ser executado assim que os campos estiverem válidos
-- Mantenha o layout pixel by pixel conforme proposto no link
 
 ## Biblioteca de Cálculo de Antecipação
 

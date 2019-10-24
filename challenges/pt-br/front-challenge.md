@@ -21,18 +21,14 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 
 Sua performance será avaliada com base nos seguintes pontos:
 
-1. **Organização do projeto** pensando em **escala de novas funcionalidades**, tanto sistema de arquivos como organização do código em si (nome de arquivos, nome de variáveis, etc)
-2. Se o **layout está idêntico (pixel by pixel)** como proposto no documento do Figma (link logo abaixo)
-3. Que a calculadora de antecipação **apresente os cálculos corretos**.
-4. **Testes automatizados da biblioteca** de cálculo. Aproveite para **testar o parcelamento máximo (12x)**.
-
-## Recomendações
-
-1. Maior cobertura de testes
-2. Conte uma história do projeto em commits (preferêncialmente em inglês)
-3. Escreva um bom [README.md (exemplo)](https://github.com/elsewhencode/project-guidelines/blob/master/README.sample.md), se possível com a documentação de como consumir a biblioteca de cálculos.
-   * Caso adicione um passo a passo de como executar o seu teste, garanta que ele esteja funcionando.
-4. Garanta a qualidade do código usando eslint, pre-commit, e outras boas práticas
+1. Os problemas foram resolvidos com eficiência e eficácia, o aplicativo funciona conforme o esperado.
+2. O aplicativo é fornecido com os scripts de instalação e execução para ambientes de desenvolvimento e de testes.
+3. Você demonstra o conhecimento de como testar as partes críticas do aplicativo. **Não exigimos** 100% de cobertura.
+4. A aplicação está logicamente organizado.
+5. O teste acompanha documentação com o raciocínio sobre as decisões tomadas.
+6. O código está documentado e/ou é de fácil leitura.
+7. Segue algum guia de estilo padronizado
+8. Um histórico do git (mesmo que breve) com mensagens claras e concisas.
 
 ## Formulário de Simulação da Antecipação
 

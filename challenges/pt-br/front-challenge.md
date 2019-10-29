@@ -21,10 +21,10 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 
 Sua performance será avaliada com base nos seguintes pontos:
 
-1. Os problemas foram resolvidos com eficiência e eficácia, o aplicativo funciona conforme o esperado.
-2. O aplicativo é fornecido com os scripts de instalação e execução para ambientes de desenvolvimento e de testes.
-3. Você demonstra o conhecimento de como testar as partes críticas do aplicativo. **Não exigimos** 100% de cobertura.
-4. A aplicação está logicamente organizado.
+1. Os problemas foram resolvidos com eficiência e eficácia, a aplicação funciona conforme o esperado.
+2. A aplicação é fornecida com scripts de instalação e execução para ambientes de desenvolvimento e de testes.
+3. Você demonstra conhecimento de como testar as partes críticas do aplicativo. **Não exigimos** 100% de cobertura.
+4. A aplicação tem uma estrutura lógica e bem organizada.
 5. O teste acompanha documentação com o raciocínio sobre as decisões tomadas.
 6. O código está documentado e/ou é de fácil leitura.
 7. Segue algum guia de estilo padronizado

@@ -39,7 +39,7 @@ Sua performance será avaliada com base nos seguintes pontos:
   - Amanhã, quanto eu receberia se antecipasse tudo
   - 15 dias, quanto eu receberia se antecipasse tudo
   - 30 dias, quanto eu receberia se antecipasse tudo
-  - 60 dias, quanto eu receberia se antecipasse tudo
+  - 90 dias, quanto eu receberia se antecipasse tudo
 - O cálculo deve ser executado assim que os campos estiverem válidos
 
 ## Biblioteca de Cálculo de Antecipação

@@ -10,7 +10,7 @@ O teste de SRE é dividido em **arquitetura** e **desenvolvimento** e complement
 
 - Os dois cenários a seguir são baseados no [desafio de backend](https://github.com/hashlab/hiring/blob/master/challenges/pt-br/back-challenge.md), leia-os antes de prosseguir.
 - O resultado deve conter um documento de texto (pdf, markdown, git, etc) contendo a arquitetura proposta e documentação relevante (se houver).
-- **Opcional.** Caso queria demonstrar a aquitetura em código também seria bem legal. (ex. Terraform e/ou outros)
+- **Opcional.** Caso queira demonstrar a aquitetura em código também seria bem legal. (ex. Terraform e/ou outros)
 
 1) Imagine que o time de engenharia do produto criou mais 2 rotas: `/cart` e `/checkout` na mesma aplicação, e a complexidade implementada nessas rotas cresceu de forma demasiada e chegaram a conclusão de segmentá-las em um microserviço distinto da aplicação principal. Crie uma arquitetura que contemple esse cenário explicando a estratégia de _rollout_ entre o serviço antigo e novo: parte do tráfego deve servir os dois microserviços no primeiro momento para garantir uma migração segura e transparente.
 

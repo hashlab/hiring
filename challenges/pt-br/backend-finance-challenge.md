@@ -9,7 +9,7 @@ Sua primeira tarefa é prototipar um novo serviço de precificação de corridas
 
 - Diferentes cidades tem diferentes valores para cálculo. Alguns exemplos:
 
-|      City      | Tarifa Base | Preço Por Minuto | Preço por Km | Taxa de Serviço |  
+|      Cidade      | Tarifa Base | Preço Por Minuto | Preço por Km | Taxa de Serviço |  
 |----------------|-----------|---------------|-----------|------------|
 | São Paulo      |      3.50 |          1.00 |      0.50 |       0.75 |
 | Salvador       |      1.50 |          0.75 |      0.20 |       1.20 |
@@ -24,8 +24,8 @@ Por exemplo, uma corrida de 3 km em São Paulo que leve 10 minutos num momento d
 - Sua API deve oferecer uma rota para estimativa que receba  os seguintes parâmetros:
     - `User ID: String`
     - `Distancia Em Km: Float`
-    - `Time Estimate In Mins: Float`
-    - `City: String`
+    - `Tempo Em Minutos`: Float`
+    - `Cidade: String`
 
 - O multiplicador de demanda de cada cidade aumenta em 0.1 com cada requisição, e diminui em 0.1 depois de 5 minutos da requisição.
 - Você pode criar seu projeto usando a linguagem que desejar, não temos restrição de linguagem específica.

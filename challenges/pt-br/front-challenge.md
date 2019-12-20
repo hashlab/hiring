@@ -32,13 +32,25 @@ Sua performance será avaliada com base nos seguintes pontos:
 
 Hoje nossos clientes precisam saber o quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores eles vão receber caso optem por antecipar o recebimento.
 
+Você deverá desenvolver o teste seguindo os requisitos abaixo.
 
-### Front
+## Requisitos
+
+- Componentize todos os elementos
+- Os períodos de recebimento devem ser configuráveis já que a API pode receber uma lista de periódos para realizar os cálculos.
+- Faça testes unitários e/ou de ponta-a-ponta (end-to-end)
+- Os possíveis cenários devem ser cobertos e terem suas soluções implementadas. Não foi desenvolvido layout para isso, pois queremos observar como você vai lidar com esses cenários:
+  - Demora de respostas da API
+  - Timeout da API
+  - Conexão lenta
+  - Usuário estar offline
+
+## Front
 O layout proposto para essa calculadora pode ser visto no link abaixo.
 
 [Link para o layout](https://www.figma.com/file/ipV80xJ29T7rdz0Aoo7xWv/Antecipation?node-id=0%3A1) - **Lembrando que a sua aplicação deve seguir o layout pixel by pixel**
 
-### API
+## API
 
 Você irá consumir uma api já existente. Segue as especifiações da API:
 
@@ -87,24 +99,11 @@ $ curl --request POST \
 
 ### Simulando Timeout, Internal Server Error e Delay de resposta
 
-Para **Timeout** basta executar a request post passando `timeout` como query string parametros, exemplo:
+Para **Timeout** basta executar a request post passando `timeout` como query string, exemplo:
 `http://hash-front-test.herokuapp.com/?timeout`
 
-Para **Internal Server Error** basta executar a request post passando `timeout` como query string parametros, exemplo:
+Para **Internal Server Error** basta executar a request post passando `timeout` como query string, exemplo:
 `http://hash-front-test.herokuapp.com/?internalError`
 
-Para **Delay de resposta** que pode ser usado como simulador de conexão lenta, basta executar a request post passando `timeout` como query string parametros, exemplo:
+Para **Delay de resposta**, que pode ser usado como simulador de conexão lenta, basta executar a request post passando `delay` informando o tempo do delay em milissegundos, exemplo:
 `http://hash-front-test.herokuapp.com/?delay=tempoEmMilissegundos`
-
-Você deverá desenvolver o teste seguindo os requisitos abaixo.
-
-## Requisitos
-
-- Componentize todos os elementos
-- Os períodos de recebimento devem ser configuráveis já que a API recebe um lista de periódos para realizar os cálculos.
-- Faça testes unitários e/ou de ponta-a-ponta (end-to-end)
-- Possíveis cenários devem ser cobertos e terem suas soluções implementadas. Não foi desenvolvido layout para isso, pois queremos observar como você vai lidar com esses cenários:
-  - Demora de respostas da API
-  - Timeout da API
-  - Conexão lenta
-  - Usuário estar offline

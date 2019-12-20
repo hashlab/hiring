@@ -4,7 +4,7 @@ Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) p
 
 ## Objetivo
 
-O objetivo do desafio é validar seus conhecimentos em JavaScript, então aproveite o desafio para mostrar tudo o que você sabe sobre as novas features da linguagem, TypeScript(caso opte, mostre todo o seu domínio), componentização, processadores de CSS seja IN-JS ou demais, testes unitário e end-to-end.
+O objetivo do desafio é validar seus conhecimentos em JavaScript, então aproveite o desafio para mostrar tudo o que você sabe sobre as novas features da linguagem, TypeScript(caso opte, mostre todo o seu domínio), componentização, processadores de CSS seja IN-JS ou demais, testes unitários e end-to-end.
 
 Vamos analisar o seu teste com base no que foi dito acima, então, dê um show pra gente ficar impressionado.
 
@@ -30,7 +30,7 @@ Sua performance será avaliada com base nos seguintes pontos:
 
 ## O Teste
 
-Hoje nossos clientes precisam saber o quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores eles vão receber caso optem por antecipar o recebimento.
+Hoje nossos clientes precisam saber quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores eles vão receber caso optem por antecipar o recebimento.
 
 Você deverá desenvolver o teste seguindo os requisitos abaixo.
 

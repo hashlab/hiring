@@ -2,13 +2,11 @@
 
 Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e **faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço** ;)
 
-O teste consiste desenvolver um simulador de antecipação de recebíveis composto por:
+## Objetivo
 
-> - App com formulário para o usuário interagir.
-> - Biblioteca para executar o cálculo de recebíveis
->   - Parcelamento máximo de 12x
+O objetivo do desafio é validar seus conhecimentos em JavaScript, então aproveite o desafio para mostrar tudo o que você sabe sobre as novas features da linguagem, TypeScript(caso opte, mostre todo o seu domínio), componentização, processadores de CSS seja IN-JS ou demais, testes unitário e end-to-end. 
 
-Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!). Em até uma semana marcaremos uma conversa com você após analisarmos seu desafio.
+Vamos analisar o seu teste com base no que foi dito acima, então, dê um show pra gente ficar impressionado.
 
 ## Restrições
 
@@ -30,45 +28,51 @@ Sua performance será avaliada com base nos seguintes pontos:
 7. Segue algum guia de estilo padronizado
 8. Um histórico do git (mesmo que breve) com mensagens claras e concisas.
 
-## Formulário de Simulação da Antecipação
+## O Teste
+
+Hoje nossos clientes precisam saber o quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores eles vão receber caso optem por antecipar o recebimento.
+
+
+### Front
+O layout proposto para essa calculadora pode ser visto no link abaixo.
 
 [Link para o layout](https://www.figma.com/file/ipV80xJ29T7rdz0Aoo7xWv/Antecipation?node-id=0%3A1) - **Lembrando que deve ser pixel by pixel**
 
-- Todos os campos são obrigatórios
-- A data de recebimento do **valor total da compra** deve ser fixada nos seguintes periodos: (como apresentado no layout)
-  - Amanhã, quanto eu receberia se antecipasse tudo
-  - 15 dias, quanto eu receberia se antecipasse tudo
-  - 30 dias, quanto eu receberia se antecipasse tudo
-  - 90 dias, quanto eu receberia se antecipasse tudo
-- O cálculo deve ser executado assim que os campos estiverem válidos
+### API
 
-## Biblioteca de Cálculo de Antecipação
+Você irá consumir uma api já existente. Segue as especifiações da API:
 
-A taxa de recebimento antecipado é calculada a juros simples e aplicada sobre o valor líquido da transação, ou seja, primeiro é deduzida a taxa de **MDR²** e então é aplicada a taxa de recebimento antecipado. A taxa de recebimento antecipado é mensal, mas seu cálculo é feito com taxa diária (taxa mensal/30), uma vez que algumas transações são antecipadas por períodos menores que 30 dias.
+`http://hash-front-test.herokuapp.com/`
 
-A taxa de recebimento antecipado é sempre proporcional ao tempo em que a parcela está sendo antecipada. Supondo uma venda em 3x sem juros - normalmente, a primeira parcela seria recebida pelo lojista em 30 dias, a segunda parcela em 60 dias e a terceira em 90 dias.
+### Post
 
-Desse modo, para o lojista receber a primeira parcela no dia seguinte da venda, precisamos antecipar, aproximadamente, 1 mês. Logo, a taxa de recebimento antecipado vai incidir uma vez. Já a segunda parcela precisaria ser antecipada em 2 meses, logo, a taxa de recebimento antecipado incide 2x. A terceira parcela seria antecipada em 3 meses, sendo a taxa de recebimento antecipado multiplicada por 3 nessa parcela.
+| Parâmetro    | Required | Tipo          | Descrição                                                                              |
+|--------------|----------|---------------|----------------------------------------------------------------------------------------|
+| amount       | Sim      | number        | Valor total da transação em centavos                                                   |
+| installments | Sim      | number        | Número de parcelas                                                                     |
+| mdr          | Sim      | number        | É a taxa cobrada pelas adquirentes sobre cada transação de cartão de crédito ou débito |
+| days         | Não      | Array<number> | Uma lista com os dias a serem calculadas as antecipações                               |
 
-#### Exemplo com números:
+### Simulando Timeout, Internal Server Error e Delay de resposta
 
-**Transação**
+Para **Timeout** basta executar a request post passando `timeout` como query string parametros, exemplo:
+`http://hash-front-test.herokuapp.com/?timeout`
 
-| Valor      | Parcelas | MDR |
-| ---------- | -------- | --- |
-| R\$ 150,00 | 3x       | 4%  |
+Para **Internal Server Error** basta executar a request post passando `timeout` como query string parametros, exemplo:
+`http://hash-front-test.herokuapp.com/?internalError`
 
-**Antecipação Total**
+Para **Delay de resposta** que pode ser usado como simulador de conexão lenta, basta executar a request post passando `timeout` como query string parametros, exemplo:
+`http://hash-front-test.herokuapp.com/?delay=tempoEmMilissegundos`
 
-| Parcela | Recebível | Com Atencipação       |
-| ------- | --------- | --------------------- |
-| 1       | R\$ 48,00 | R\$ 46,08             |
-| 2       | R\$ 48,00 | R\$ 44,16             |
-| 3       | R\$ 48,00 | R\$ 42,24             |
-|         |           | Total: **R\$ 132,48** |
+Você deverá desenvolver o teste seguindo os requisitos abaixo.
 
-**² Taxa de MDR é uma porcentagem do valor da sua venda que é cobrada diretamente dos seus recebíveis.**
+## Requisitos
 
-#### Exemplo animado baseado nessa tabela anterior
-
-![](anticipation.gif)
+- Componentize todos os elementos
+- Os períodos de recebimento devem ser configuráveis já que a API recebe um lista de periódos para realizar os cálculos.
+- Faça testes unitários e/ou de ponta-a-ponta (end-to-end)
+- Possíveis cenários devem ser cobertos e terem suas soluções implementadas. Não foi desenvolvido layout para isso, pois queremos observar como você vai lidar com esses cenários:
+  - Demora de respostas da API
+  - Timeout da API
+  - Conexão lenta
+  - Usuário estar offline

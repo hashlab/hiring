@@ -53,6 +53,38 @@ Você irá consumir uma api já existente. Segue as especifiações da API:
 | mdr          | Sim      | number        | É a taxa cobrada pelas adquirentes sobre cada transação de cartão de crédito ou débito |
 | days         | Não      | Array<number> | Uma lista com os dias a serem calculadas as antecipações                               |
 
+
+### Exemplo
+
+```bash
+$ curl --request POST \
+  --url http://hash-front-test.herokuapp.com/ \
+  --header 'content-type: application/json' \
+  --data '{
+	"amount": 15000,
+	"installments": 3,
+	"mdr": 4
+}'
+
+{"1":13267,"15":13536,"30":13824,"90":14400}%
+```
+
+### Exemplo informando períodos
+
+```bash
+$ curl --request POST \
+  --url http://hash-front-test.herokuapp.com/ \
+  --header 'content-type: application/json' \
+  --data '{
+	"amount": 15000,
+	"installments": 3,
+	"mdr": 4,
+	"days": [30, 60, 90]
+}'
+
+{"30":13824,"60":14208,"90":14400}%
+```
+
 ### Simulando Timeout, Internal Server Error e Delay de resposta
 
 Para **Timeout** basta executar a request post passando `timeout` como query string parametros, exemplo:

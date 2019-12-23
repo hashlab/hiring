@@ -10,7 +10,7 @@ Envie o resultado do seu desafio para sre@hash.com.br (ele pode ser open source!
 
 ## Tasks e restrições
 
-* Crie um pipeline CI/CD para fazer o deploy dos serviços do diretório ./services, você pode usar qualquer ferramenta de CI, mas sugerimos GitlabCI é o que usamos aqui.
+* Crie um pipeline CI/CD para fazer o deploy dos serviços do diretório ./services, você pode usar qualquer ferramenta de CI.
     * As aplicações **devem** ter steps de build, testes e deploy em Kubernetes
     * O desafio **deve** ser feito usando “Pipeline as code"
     * O pipeline de deploy **precisa*** validar que o mesmo foi concluído com sucesso, caso contrário o mesmo deve falhar

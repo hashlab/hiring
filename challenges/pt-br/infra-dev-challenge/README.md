@@ -35,7 +35,7 @@ Envie o resultado do seu desafio para sre@hash.com.br (ele pode ser open source!
 
 ## Serviços
 
-Sinta-se livre para melhorar qualquer aspecto dos serviços como: Dockerfiles, criar testes, consertar problemas no código caso o identifique-os, etc.
+Sinta-se livre para melhorar qualquer aspecto dos serviços como: Dockerfiles, criar testes, consertar problemas no código caso os identifique, etc.
 
 O diretório [./services](./services) consiste em quatro microserviços que compôem uma aplicação de informações sobre um livro, como um catalógo de livros online.
 

@@ -22,10 +22,10 @@ Por exemplo, uma corrida de 3 km em São Paulo que leve 10 minutos num momento d
 ## Requisitos
 - Sua API deve lidar com múltiplas cidades e diferenciar entre usuários da plataforma
 - Sua API deve oferecer uma rota para estimativa que receba  os seguintes parâmetros:
-    - `User ID: String`
-    - `Distancia Em Km: Float`
-    - `Tempo Em Minutos`: Float`
-    - `Cidade: String`
+    - User ID
+    - Distancia Em Km
+    - Tempo Em Minutos
+    - Cidade: String
 
 - O multiplicador de demanda de cada cidade aumenta em 0.1 com cada requisição, e diminui em 0.1 depois de 5 minutos da requisição.
 - Você pode criar seu projeto usando a linguagem que desejar, não temos restrição de linguagem específica.

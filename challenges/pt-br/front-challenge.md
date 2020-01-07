@@ -36,7 +36,7 @@ Você deverá desenvolver o teste seguindo os requisitos abaixo.
 
 ## Requisitos
 
-- Componentize todos os elementos
+- Use componentização.
 - Os períodos de recebimento devem ser configuráveis já que a API pode receber uma lista de periódos para realizar os cálculos.
 - Faça testes unitários e/ou de ponta-a-ponta (end-to-end)
 - Os possíveis cenários devem ser cobertos e terem suas soluções implementadas. Não foi desenvolvido layout para isso, pois queremos observar como você vai lidar com esses cenários:

@@ -64,7 +64,7 @@ Você consumirá uma API já existente no endereço abaixo. Em seguida há uma e
 
 ### Post
 
-| Parâmetro    | Required | Tipo          | Descrição                                                                              |
+| Parâmetro    | Obrigatório? | Tipo          | Descrição                                                                              |
 |--------------|----------|---------------|----------------------------------------------------------------------------------------|
 | amount       | Sim      | number        | Valor total da transação em centavos                                                   |
 | installments | Sim      | number        | Número de parcelas                                                                     |

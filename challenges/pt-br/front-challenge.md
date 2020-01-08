@@ -34,7 +34,7 @@ Sua performance será avaliada com base nos seguintes pontos:
 4. A aplicação tem uma estrutura lógica e bem organizada.
 5. O teste acompanha documentação com o raciocínio sobre as decisões tomadas.
 6. O código está documentado e/ou é de fácil leitura.
-7. Segue algum guia de estilo de código padronizado
+7. Segue algum guia de estilo de código padronizado.
 8. Possui um histórico do git (mesmo que breve) com mensagens claras e concisas.
 
 ## O Teste

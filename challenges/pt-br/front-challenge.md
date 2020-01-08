@@ -3,7 +3,7 @@
 Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e **faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço** ;)
 
 Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!).
-Se possível, faça deploy da sua aplicação em algum serviço como [Netlify](https://www.netlify.com/), [Heroku](https://heroku.com/) ou qualquer um de sua escolha.
+Se possível, faça deploy da sua aplicação em algum serviço como [Netlify](https://www.netlify.com/), [Heroku](https://heroku.com/) ou qualquer outro de sua preferência.
 
 ## Objetivo
 

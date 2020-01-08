@@ -100,7 +100,7 @@ $ curl --request POST \
 	"days": [30, 60, 90]
 }'
 
-{"30":13824,"60":14208,"90":14400}%
+{"30":13824,"60":14208,"90":14400}
 ```
 
 ### Simulando Timeout, Internal Server Error e Delay de resposta

@@ -111,5 +111,5 @@ Para **Timeout** basta executar a request post passando `timeout` através da qu
 Para **Internal Server Error** basta executar a request post passando `internalError` através da query string, exemplo:
 `http://hash-front-test.herokuapp.com/?internalError`
 
-Para **Delay de resposta**, que pode ser usado como simulador de conexão lenta, basta executar a request post passando `delay` informando o tempo do delay em milissegundos, exemplo:
+Para **Delay de resposta**, que pode ser usado como simulador de conexão lenta, basta executar a request post passando `delay`, e informando o tempo do delay em milissegundos, exemplo:
 `http://hash-front-test.herokuapp.com/?delay=tempoEmMilissegundos`

@@ -12,7 +12,7 @@ O objetivo do desafio é validar seus conhecimentos nos seguintes tópicos:
 -  **Testes unitários** 
 - **Testes end-to-end**
 
-Vamos analisar o seu teste com base no que foi dito acima, então, dê um show pra gente ficar impressionado.
+Analisaremos seu teste com base nos critérios acima, então dê um show para que fiquemos impressionados.
 
 ## Restrições
 

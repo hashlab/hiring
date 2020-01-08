@@ -4,7 +4,13 @@ Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) p
 
 ## Objetivo
 
-O objetivo do desafio é validar seus conhecimentos em JavaScript, então aproveite o desafio para mostrar tudo o que você sabe sobre as novas features da linguagem, TypeScript(caso opte, mostre todo o seu domínio), componentização, processadores de CSS seja IN-JS ou demais, testes unitários e end-to-end.
+O objetivo do desafio é validar seus conhecimentos nos seguintes tópicos:
+- **JavaScript**: aproveite o desafio para mostrar tudo o que sabe sobre as novas features da linguagem.
+- **TypeScript**: Opcional. Caso opte por usá-lo, mostre todo o seu domínio. 
+- **Componentização** 
+- **Processadores de CSS**: seja IN-JS ou demais
+-  **Testes unitários** 
+- **Testes end-to-end**
 
 Vamos analisar o seu teste com base no que foi dito acima, então, dê um show pra gente ficar impressionado.
 

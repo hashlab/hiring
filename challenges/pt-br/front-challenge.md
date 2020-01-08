@@ -2,14 +2,17 @@
 
 Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e **faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço** ;)
 
+Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!).
+Se possível, faça deploy da sua aplicação em algum serviço como [Netlify](https://www.netlify.com/), [Heroku](https://heroku.com/) ou qualquer um de sua escolha.
+
 ## Objetivo
 
 O objetivo do desafio é validar seus conhecimentos nos seguintes tópicos:
 - **JavaScript**: aproveite o desafio para mostrar tudo o que sabe sobre as novas features da linguagem.
-- **TypeScript**: Opcional. Caso opte por usá-lo, mostre todo o seu domínio. 
-- **Componentização** 
+- **TypeScript**: Opcional. Caso opte por usá-lo, mostre todo o seu domínio.
+- **Componentização**
 - **Processadores de CSS**: seja IN-JS ou demais
--  **Testes unitários** 
+- **Testes unitários**
 - **Testes end-to-end**
 
 Analisaremos seu teste com base nos critérios acima, então dê um show para que fiquemos impressionados.
@@ -27,7 +30,7 @@ Sua performance será avaliada com base nos seguintes pontos:
 
 1. Os problemas foram resolvidos com eficiência e eficácia, a aplicação funciona conforme o esperado.
 2. A aplicação é fornecida com comandos de instalação e execução para ambientes de desenvolvimento e de testes.
-3. Você demonstra conhecimento de como testar as partes críticas do aplicativo. **Não exigimos** 100% de cobertura.
+3. Você demonstra conhecimento de como testar as partes críticas da aplicação. **Não exigimos** 100% de cobertura.
 4. A aplicação tem uma estrutura lógica e bem organizada.
 5. O teste acompanha documentação com o raciocínio sobre as decisões tomadas.
 6. O código está documentado e/ou é de fácil leitura.
@@ -45,11 +48,13 @@ Você deverá desenvolver o teste seguindo os requisitos abaixo.
 - Use componentização.
 - Os períodos de recebimento devem ser configuráveis já que a API pode receber uma lista de periódos para realizar os cálculos.
 - Faça testes unitários e/ou de ponta-a-ponta (end-to-end)
-- Os possíveis cenários devem ser cobertos e terem suas soluções implementadas. Não foi desenvolvido layout para isso, pois queremos observar como você vai lidar com esses cenários:
-  - Demora de respostas da API
-  - Timeout da API
-  - Conexão lenta
-  - Usuário estar offline
+
+Os possíveis cenários devem ser cobertos e terem soluções implementadas. Não foi desenvolvido layout para isso, pois queremos observar como você lidará com eles:
+
+- Demora de respostas da API
+- Timeout da API
+- Conexão lenta
+- Usuário estar offline
 
 ## Front
 O layout proposto para essa calculadora pode ser visto no link abaixo.
@@ -60,7 +65,7 @@ O layout proposto para essa calculadora pode ser visto no link abaixo.
 
 Você consumirá uma API já existente no endereço abaixo. Em seguida há uma especificação simplificada dela.
 
-`http://hash-front-test.herokuapp.com/`
+`https://hash-front-test.herokuapp.com/`
 
 ### Post
 
@@ -70,7 +75,6 @@ Você consumirá uma API já existente no endereço abaixo. Em seguida há uma e
 | `installments` | Sim      | `number`        | Número de parcelas                                                                     |
 | `mdr`          | Sim      | `number`        | É a taxa cobrada pelas adquirentes sobre cada transação de cartão de crédito ou débito |
 | `days`         | Não      | `Array<number>` | Uma lista com os dias a serem calculadas as antecipações                               |
-
 
 ### Exemplo
 

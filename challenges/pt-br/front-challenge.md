@@ -105,7 +105,7 @@ $ curl --request POST \
 
 ### Simulando Timeout, Internal Server Error e Delay de resposta
 
-Para **Timeout** basta executar a request post passando `timeout` como query string, exemplo:
+Para **Timeout** basta executar a request post passando `timeout` através da query string, exemplo:
 `http://hash-front-test.herokuapp.com/?timeout`
 
 Para **Internal Server Error** basta executar a request post passando `timeout` como query string, exemplo:

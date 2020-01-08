@@ -68,7 +68,7 @@ Você consumirá uma API já existente no endereço abaixo. Em seguida há uma e
 |--------------|----------|---------------|----------------------------------------------------------------------------------------|
 | amount       | Sim      | number        | Valor total da transação em centavos                                                   |
 | installments | Sim      | number        | Número de parcelas                                                                     |
-| mdr          | Sim      | number        | É a taxa cobrada pelas adquirentes sobre cada transação de cartão de crédito ou débito |
+| `mdr`          | Sim      | `number`        | É a taxa cobrada pelas adquirentes sobre cada transação de cartão de crédito ou débito |
 | `days`         | Não      | `Array<number>` | Uma lista com os dias a serem calculadas as antecipações                               |
 
 

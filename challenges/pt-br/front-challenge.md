@@ -58,7 +58,7 @@ O layout proposto para essa calculadora pode ser visto no link abaixo.
 
 ## API
 
-Você irá consumir uma api já existente. Segue as especifiações da API:
+Você consumirá uma API já existente no endereço abaixo. Em seguida há uma especificação simplificada dela.
 
 `http://hash-front-test.herokuapp.com/`
 

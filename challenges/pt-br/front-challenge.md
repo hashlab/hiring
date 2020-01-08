@@ -36,7 +36,7 @@ Sua performance será avaliada com base nos seguintes pontos:
 
 ## O Teste
 
-Hoje nossos clientes precisam saber quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores eles vão receber caso optem por antecipar o recebimento.
+Hoje nossos clientes precisam saber quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores receberão caso optem por antecipar o recebimento.
 
 Você deverá desenvolver o teste seguindo os requisitos abaixo.
 

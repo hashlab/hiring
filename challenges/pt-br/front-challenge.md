@@ -80,7 +80,7 @@ Você consumirá uma API já existente no endereço abaixo. Em seguida há uma e
 
 ```bash
 $ curl --request POST \
-  --url http://hash-front-test.herokuapp.com/ \
+  --url https://hash-front-test.herokuapp.com/ \
   --header 'content-type: application/json' \
   --data '{
 	"amount": 15000,
@@ -95,7 +95,7 @@ $ curl --request POST \
 
 ```bash
 $ curl --request POST \
-  --url http://hash-front-test.herokuapp.com/ \
+  --url https://hash-front-test.herokuapp.com/ \
   --header 'content-type: application/json' \
   --data '{
 	"amount": 15000,
@@ -110,10 +110,10 @@ $ curl --request POST \
 ### Simulando Timeout, Internal Server Error e Delay de resposta
 
 Para **Timeout** basta executar a request post passando `timeout` através da query string, exemplo:
-`http://hash-front-test.herokuapp.com/?timeout`
+`https://hash-front-test.herokuapp.com/?timeout`
 
 Para **Internal Server Error** basta executar a request post passando `internalError` através da query string, exemplo:
-`http://hash-front-test.herokuapp.com/?internalError`
+`https://hash-front-test.herokuapp.com/?internalError`
 
 Para **Delay de resposta**, que pode ser usado como simulador de conexão lenta, basta executar a request post passando `delay`, e informando o tempo do delay em milissegundos, exemplo:
-`http://hash-front-test.herokuapp.com/?delay=tempoEmMilissegundos`
+`https://hash-front-test.herokuapp.com/?delay=tempoEmMilissegundos`

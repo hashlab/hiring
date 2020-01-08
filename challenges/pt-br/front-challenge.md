@@ -2,19 +2,26 @@
 
 Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e **faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço** ;)
 
-O teste consiste desenvolver um simulador de antecipação de recebíveis composto por:
+Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!).
+Se possível, faça deploy da sua aplicação em algum serviço como [Netlify](https://www.netlify.com/), [Heroku](https://heroku.com/) ou qualquer outro de sua preferência.
 
-> - App com formulário para o usuário interagir.
-> - Biblioteca para executar o cálculo de recebíveis
->   - Parcelamento máximo de 12x
+## Objetivo
 
-Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!). Em até uma semana marcaremos uma conversa com você após analisarmos seu desafio.
+O objetivo do desafio é validar seus conhecimentos nos seguintes tópicos:
+- **JavaScript**: aproveite o desafio para mostrar tudo o que sabe sobre as novas features da linguagem.
+- **TypeScript**: Opcional. Caso opte por usá-lo, mostre todo o seu domínio.
+- **Componentização**
+- **Processadores de CSS**: seja IN-JS ou demais
+- **Testes unitários**
+- **Testes end-to-end**
+
+Analisaremos seu teste com base nos critérios acima, então dê um show para que fiquemos impressionados.
 
 ## Restrições
 
-1.  Não é permitido utilizar frameworks e/ou bibliotecas de UI, como React, Vue.js, Angular e JSX (queremos ver a sua habilidade com JS e DOM).
-2.  São permitidas ferramentas modernas de desenvolvimento como TypeScript, Babel, eslint, webpack, assim como o uso de polyfills (e outras ferramentas para melhorar o suporte a browsers, como o Modernizr) e/ou bibliotecas para testes.
-3.  São permitidos pré-processadores de CSS e/ou ferramentas CSS-in-JS.
+1.  **Não é permitido** utilizar frameworks e/ou bibliotecas de UI, como React, Vue.js, Angular e JSX (queremos ver sua habilidade com JS e DOM).
+2.  **São permitidas** ferramentas modernas de desenvolvimento como TypeScript, Babel, eslint, webpack, assim como o uso de polyfills (e outras ferramentas para melhorar o suporte a browsers, como Modernizr) e/ou bibliotecas para testes.
+3.  **São permitidos** pré-processadores de CSS e/ou ferramentas CSS-in-JS.
 4.  Não é uma regra, mas evite usar lodash, underscore, ramda e similares.
 
 ## Como Avaliaremos seu Teste Técnico
@@ -22,53 +29,91 @@ Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!
 Sua performance será avaliada com base nos seguintes pontos:
 
 1. Os problemas foram resolvidos com eficiência e eficácia, a aplicação funciona conforme o esperado.
-2. A aplicação é fornecida com scripts de instalação e execução para ambientes de desenvolvimento e de testes.
-3. Você demonstra conhecimento de como testar as partes críticas do aplicativo. **Não exigimos** 100% de cobertura.
+2. A aplicação é fornecida com comandos de instalação e execução para ambientes de desenvolvimento e de testes.
+3. Você demonstra conhecimento de como testar as partes críticas da aplicação. **Não exigimos** 100% de cobertura.
 4. A aplicação tem uma estrutura lógica e bem organizada.
 5. O teste acompanha documentação com o raciocínio sobre as decisões tomadas.
 6. O código está documentado e/ou é de fácil leitura.
-7. Segue algum guia de estilo padronizado
-8. Um histórico do git (mesmo que breve) com mensagens claras e concisas.
+7. Segue algum guia de estilo de código padronizado.
+8. Possui um histórico do git (mesmo que breve) com mensagens claras e concisas.
 
-## Formulário de Simulação da Antecipação
+## O Teste
 
-[Link para o layout](https://www.figma.com/file/ipV80xJ29T7rdz0Aoo7xWv/Antecipation?node-id=0%3A1) - **Lembrando que deve ser pixel by pixel**
+Hoje nossos clientes precisam saber quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores receberão caso optem por antecipar o recebimento.
 
-- Todos os campos são obrigatórios
-- A data de recebimento do **valor total da compra** deve ser fixada nos seguintes periodos: (como apresentado no layout)
-  - Amanhã, quanto eu receberia se antecipasse tudo
-  - 15 dias, quanto eu receberia se antecipasse tudo
-  - 30 dias, quanto eu receberia se antecipasse tudo
-  - 90 dias, quanto eu receberia se antecipasse tudo
-- O cálculo deve ser executado assim que os campos estiverem válidos
+Você deverá desenvolver o teste seguindo os requisitos abaixo.
 
-## Biblioteca de Cálculo de Antecipação
+## Requisitos
 
-A taxa de recebimento antecipado é calculada a juros simples e aplicada sobre o valor líquido da transação, ou seja, primeiro é deduzida a taxa de **MDR²** e então é aplicada a taxa de recebimento antecipado. A taxa de recebimento antecipado é mensal, mas seu cálculo é feito com taxa diária (taxa mensal/30), uma vez que algumas transações são antecipadas por períodos menores que 30 dias.
+- Use componentização.
+- Os períodos de recebimento devem ser configuráveis já que a API pode receber uma lista de periódos para realizar os cálculos.
+- Faça testes unitários e/ou de ponta-a-ponta (end-to-end)
 
-A taxa de recebimento antecipado é sempre proporcional ao tempo em que a parcela está sendo antecipada. Supondo uma venda em 3x sem juros - normalmente, a primeira parcela seria recebida pelo lojista em 30 dias, a segunda parcela em 60 dias e a terceira em 90 dias.
+Os possíveis cenários devem ser cobertos e terem soluções implementadas. Não foi desenvolvido layout para isso, pois queremos observar como você lidará com eles:
 
-Desse modo, para o lojista receber a primeira parcela no dia seguinte da venda, precisamos antecipar, aproximadamente, 1 mês. Logo, a taxa de recebimento antecipado vai incidir uma vez. Já a segunda parcela precisaria ser antecipada em 2 meses, logo, a taxa de recebimento antecipado incide 2x. A terceira parcela seria antecipada em 3 meses, sendo a taxa de recebimento antecipado multiplicada por 3 nessa parcela.
+- Demora de respostas da API
+- Timeout da API
+- Conexão lenta
+- Usuário estar offline
 
-#### Exemplo com números:
+## Front
+O layout proposto para essa calculadora pode ser visto no link abaixo.
 
-**Transação**
+[Link para o layout](https://www.figma.com/file/ipV80xJ29T7rdz0Aoo7xWv/Antecipation?node-id=0%3A1) - **Lembrando que a sua aplicação deve seguir o layout pixel by pixel**
 
-| Valor      | Parcelas | MDR |
-| ---------- | -------- | --- |
-| R\$ 150,00 | 3x       | 4%  |
+## API
 
-**Antecipação Total**
+Você consumirá uma API já existente no endereço abaixo. Em seguida há uma especificação simplificada dela.
 
-| Parcela | Recebível | Com Atencipação       |
-| ------- | --------- | --------------------- |
-| 1       | R\$ 48,00 | R\$ 46,08             |
-| 2       | R\$ 48,00 | R\$ 44,16             |
-| 3       | R\$ 48,00 | R\$ 42,24             |
-|         |           | Total: **R\$ 132,48** |
+`https://hash-front-test.herokuapp.com/`
 
-**² Taxa de MDR é uma porcentagem do valor da sua venda que é cobrada diretamente dos seus recebíveis.**
+### Post
 
-#### Exemplo animado baseado nessa tabela anterior
+| Parâmetro    | Obrigatório? | Tipo          | Descrição                                                                              |
+|--------------|----------|---------------|----------------------------------------------------------------------------------------|
+| `amount`       | Sim      | `number`        | Valor total da transação em centavos                                                   |
+| `installments` | Sim      | `number`        | Número de parcelas                                                                     |
+| `mdr`          | Sim      | `number`        | É a taxa cobrada pelas adquirentes sobre cada transação de cartão de crédito ou débito |
+| `days`         | Não      | `Array<number>` | Uma lista com os dias a serem calculadas as antecipações                               |
 
-![](anticipation.gif)
+### Exemplo
+
+```bash
+$ curl --request POST \
+  --url https://hash-front-test.herokuapp.com/ \
+  --header 'content-type: application/json' \
+  --data '{
+	"amount": 15000,
+	"installments": 3,
+	"mdr": 4
+}'
+
+{"1":13267,"15":13536,"30":13824,"90":14400}
+```
+
+### Exemplo informando períodos
+
+```bash
+$ curl --request POST \
+  --url https://hash-front-test.herokuapp.com/ \
+  --header 'content-type: application/json' \
+  --data '{
+	"amount": 15000,
+	"installments": 3,
+	"mdr": 4,
+	"days": [30, 60, 90]
+}'
+
+{"30":13824,"60":14208,"90":14400}
+```
+
+### Simulando Timeout, Internal Server Error e Delay de resposta
+
+Para **Timeout** basta executar a request post passando `timeout` através da query string, exemplo:
+`https://hash-front-test.herokuapp.com/?timeout`
+
+Para **Internal Server Error** basta executar a request post passando `internalError` através da query string, exemplo:
+`https://hash-front-test.herokuapp.com/?internalError`
+
+Para **Delay de resposta**, que pode ser usado como simulador de conexão lenta, basta executar a request post passando `delay`, e informando o tempo do delay em milissegundos, exemplo:
+`https://hash-front-test.herokuapp.com/?delay=tempoEmMilissegundos`

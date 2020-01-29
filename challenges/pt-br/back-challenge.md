@@ -1,30 +1,33 @@
 # Hash Teste Back-end
 
-Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
+Hello and thanks for taking time to try this out.
 
-O teste consiste em escrever 2 microserviços que possibilitam retornar uma lista de produtos com desconto personalizado para cada usuário.
+The goal of this test is to assert (to some degree) your coding and architectural skills. You're given a simple problem so you can focus on showcasing development techniques and distributed systems knowledge.
 
-Envie o resultado do seu desafio para dev@hash.com.br (ele pode ser open source!). Em até uma semana marcaremos uma conversa com você após analisarmos seu desafio.
 
-## Restrições
+You are **allowed** to use any sort of framework or library, but be prepared to answer some questions about those libraries, like why you chose them and what other alternatives you're familiar with. At Hash knowing how his/her work tools work is really important! 
 
- 1. Os serviços desse teste devem ser escritos usando linguagens distintas
- 2. Os serviços desse teste devem se comunicar via [gRPC](https://grpc.io/)
- 3. Utilize [docker](https://www.docker.com/) para provisionar os serviços
- 4. Para facilitar, os serviços podem usar um banco de dados compartilhado
 
-## Avaliação
+Send the result of your challenge to dev@hash.com.br (the repo can be open source). Before a week we'll contact you to schedule an interview!
 
-1. Conversaremos sobre a estrutura do código, escolha do banco, e outras decisões que foram tomadas
-2. Discutiremos como esse sistema evoluiria ao longo do tempo
-3. Considere que as regras de descontos irão mudar com o tempo
-4. Considere que mais pessoas irão trabalhar junto com você nesse projeto
 
-## Serviço 1: Desconto invidual de produto
+## Task
 
-* Este serviço recebe um id de produto e um id de usuário e retorna um desconto.
+Write two microservices that together powers an web page that displays a product list with custom discounts per user.
 
-Produto exemplo:
+__Restrictions__
+
+1. The services **must** be written in distinct programming languages.
+2. The services **must** communicate via [gRPC](https://grpc.io/)
+
+### Service 1: Discount calculator
+
+This service **must** receive two RPC arguments:
+  - product_id: The ID of a Product
+  - user_id: The ID of an User
+
+Sample product schema:
+
 ```
 {
     id: string
@@ -38,7 +41,8 @@ Produto exemplo:
 }
 ```
 
-Usuário exemplo:
+Sample user schema:
+
 ```
 {
     id: string
@@ -48,20 +52,31 @@ Usuário exemplo:
 }
 ```
 
-* As regras de descontos da aplicação são:
-  * Se for aniversário do usuário, o produto terá 5% de desconto
-  * Se for black friday (nesse exemplo ela pode ser fixada dia 25/11) o produto terá 10% de desconto
-  * O desconto não pode passar de 10%
+The returned discount **must** obey the following rules:
+  * If it's the user’s birthday, the product has 5% discount.
+  * If it is black friday (for this test you can assume BlackFriday is November 25th), the product has 10% discount
+  * No product discount can be bigger than 10%
 
+  
+  ### Service 2: Products list
 
-## Serviço 2: Listagem de produtos
-* Expõe uma rota HTTP tal que `GET /product` retorne um json com uma
-lista de produtos.
+This service exposes a HTTP endpoint `GET /product` that returns a list of products.
 
-* Essa rota deve receber opcionalmente via header `X-USER-ID` um id de usuário.
+1. The endpoint response **must** be `JSON` encoded.
+2. To calculate each product discount the service **must** consume service 1 via gRPC.
+3. If service 1 errors while calculating a discount, the service **must** returns the product list but with zero discounts for the affected products.
 
-* Para obter o desconto personalizado este serviço deve utilizar o serviço 1.
+## Evaluation Criteria
+​
+1. The problems are solved efficiently and effectively, the application works as expected.
+2. The application is supplied with the setup scripts. Consider using docker and a one-liner setup.
+3. You demonstrate the knowledge on how to test the critical parts of the application. We **do not require** 100% coverage.
+4. The application is well and logically organised.
+5. The submission is accompanied by documentation with the reasoning on the decisions taken.
+6. The code is documented and is easy to follow.
+7. Following the industry standard style guide.
+8. A git history (even if brief) with clear, concise commit messages.
+​
 
-* Caso o serviço 1 retorne um erro, a lista de produtos ainda precisa ser retornada, porém com esse produto que deu erro sem desconto.
+Before you start, take a look at our [key values](https://www.keyvalues.com/hash). It can show you how we think and work in terms of development. Also do your best! We'll evaluate it like you did.
 
-* Se o serviço de desconto (1) cair, o serviço de lista (2) tem que continuar funcionando e retornando a lista normalmente, só não vai aplicar os descontos.

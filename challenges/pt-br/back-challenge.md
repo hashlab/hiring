@@ -78,5 +78,4 @@ This service exposes a HTTP endpoint `GET /product` that returns a list of produ
 8. A git history (even if brief) with clear, concise commit messages.
 ​
 
-Before you start, take a look at our [key values](https://www.keyvalues.com/hash). It can show you how we think and work in terms of development. Also do your best! We'll evaluate it like you did.
-
+Also if you'd like to know more about our developer culture, how we think and work in terms of development. check out our  [key values](https://www.keyvalues.com/hash).

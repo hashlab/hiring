@@ -9,7 +9,7 @@ Exemplo:
 Um programa possui em memória o seguinte objeto TLV:
 
 ```
-char tlvObject[] = {0xE1, 0x0B, 0xC1, 0x03, 0x01, 0x02,
+uint8_t tlvObject[] = {0xE1, 0x0B, 0xC1, 0x03, 0x01, 0x02,
                     0x03, 0xC2, 0x00, 0xC3, 0x02, 0xAA,
                     0xBB};
 ```
@@ -49,4 +49,3 @@ Para auxiliar no desenvolvimento, você encontra, neste repositório, trecho da 
 
 1. Conversaremos sobre estrutura de código, lógica e decisões tomadas
 2. Considere a possibilidade de evolução, trabalho em time na manutenção da biblioteca
-

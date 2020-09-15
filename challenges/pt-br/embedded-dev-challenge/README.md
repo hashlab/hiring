@@ -8,10 +8,10 @@ Exemplo:
 
 Um programa possui em memória o seguinte objeto TLV:
 
-```
+```c
 uint8_t tlvObject[] = {0xE1, 0x0B, 0xC1, 0x03, 0x01, 0x02,
-                    0x03, 0xC2, 0x00, 0xC3, 0x02, 0xAA,
-                    0xBB};
+                       0x03, 0xC2, 0x00, 0xC3, 0x02, 0xAA,
+                       0xBB};
 ```
 
 A biblioteca deve possibilitar a este programa escrever o seguinte texto na tela:
@@ -41,7 +41,7 @@ Para auxiliar no desenvolvimento, você encontra, neste repositório, trecho da 
 
 ## Restrições
 
-1. Uso da linguagem C.
+1. Uso da linguagem C
 2. Biblioteca deve ser um SO (shared object) Linux
 3. Processo de build via CMake ou Makefile
 

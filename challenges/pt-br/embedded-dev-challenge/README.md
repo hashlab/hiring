@@ -48,5 +48,9 @@ Para auxiliar no desenvolvimento, você encontra, neste repositório, trecho da 
 
 ## Avaliação
 
-1. Conversaremos sobre estrutura de código, lógica e decisões tomadas
-2. Considere a possibilidade de evolução e trabalho em time na manutenção da biblioteca
+1. Capacidade de compreensão de um texto técnico avançado em inglês.
+2. Capacidade de compreensão e implementação de uma estrutura abstrata complexa. (BER-TLV)
+3. Qualidade da documentação escrita. Deve ser objetiva, e de fácil compreensão; de forma que permita a qualquer desenvolvedor ser capaz de utilizar a biblioteca implementada para lidar com objetos BER-TLV.
+4. Lógica implementada. O resultado precisa funcionar e trabalhar com objetos BER-TLV.
+5. Conversaremos sobre estrutura de código, lógica e decisões tomadas
+6. Considere a possibilidade de evolução e trabalho em time na manutenção da biblioteca

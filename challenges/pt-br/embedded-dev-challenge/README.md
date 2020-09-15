@@ -37,7 +37,7 @@ Para este exercício devem ser implementados:
 1. Biblioteca que acabamos de especificar, em linguagem C;
 2. Programa que utiliza a biblioteca implementada e imprima o conteúdo de um TLV na tela, tal qual o exemplo acima.
 
-Para auxiliar no desenvolvimento, você encontra, neste repositório, trecho da especificação técnica que explica como os objetos BER-TLV são codificados.
+Para auxiliar no desenvolvimento, você encontra, neste repositório, trecho da especificação técnica que específica o formato de codificação de objetos BER-TLV.
 
 ## Restrições
 

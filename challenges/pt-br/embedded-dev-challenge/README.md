@@ -49,4 +49,4 @@ Para auxiliar no desenvolvimento, você encontra, neste repositório, trecho da 
 ## Avaliação
 
 1. Conversaremos sobre estrutura de código, lógica e decisões tomadas
-2. Considere a possibilidade de evolução, trabalho em time na manutenção da biblioteca
+2. Considere a possibilidade de evolução e trabalho em time na manutenção da biblioteca

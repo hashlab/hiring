@@ -43,6 +43,7 @@ Para auxiliar no desenvolvimento, você encontra, neste repositório, trecho da 
 
 1. Uso da linguagem C.
 2. Biblioteca deve ser um SO (shared object) Linux
+3. Processo de build via CMake ou Makefile
 
 
 ## Avaliação

@@ -67,7 +67,6 @@ This service exposes a HTTP endpoint `GET /product` that returns a list of produ
 3. If service 1 errors while calculating a discount, the service **must** returns the product list but with zero discounts for the affected products.
 
 ## Evaluation Criteria
-​
 1. The problems are solved efficiently and effectively, the application works as expected.
 2. The application is supplied with the setup scripts. Consider using docker and a one-liner setup.
 3. You demonstrate the knowledge on how to test the critical parts of the application. We **do not require** 100% coverage.
@@ -76,6 +75,5 @@ This service exposes a HTTP endpoint `GET /product` that returns a list of produ
 6. The code is documented and is easy to follow.
 7. Following the industry standard style guide.
 8. A git history (even if brief) with clear, concise commit messages.
-​
 
 Also if you'd like to know more about our developer culture, how we think and work in terms of development, check out our  [key values](https://www.keyvalues.com/hash).

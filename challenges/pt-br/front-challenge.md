@@ -28,14 +28,15 @@ Analisaremos seu teste com base nos critérios acima, então dê um show para qu
 
 Sua performance será avaliada com base nos seguintes pontos:
 
-1. Os problemas foram resolvidos com eficiência e eficácia, a aplicação funciona conforme o esperado.
-2. A aplicação é fornecida com comandos de instalação e execução para ambientes de desenvolvimento e de testes.
-3. Você demonstra conhecimento de como testar as partes críticas da aplicação. **Não exigimos** 100% de cobertura.
-4. A aplicação tem uma estrutura lógica e bem organizada.
-5. O teste acompanha documentação com o raciocínio sobre as decisões tomadas.
-6. O código está documentado e/ou é de fácil leitura.
-7. Segue algum guia de estilo de código padronizado.
-8. Possui um histórico do git (mesmo que breve) com mensagens claras e concisas.
+1. A aplicação funciona conforme o esperado.
+2. Os problemas foram resolvidos com eficiência.
+3. A aplicação é fornecida com comandos de instalação e execução para ambientes de desenvolvimento e de testes.
+4. Você demonstra conhecimento de como testar as partes críticas da aplicação. **Não exigimos** 100% de cobertura.
+5. A aplicação tem uma estrutura lógica e bem organizada.
+6. O teste acompanha documentação com o raciocínio sobre as decisões tomadas.
+7. O código está documentado e/ou é de fácil leitura.
+8. Segue algum guia de estilo de código padronizado.
+9. Possui um histórico do git (mesmo que breve) com mensagens claras e concisas.
 
 ## O Teste
 

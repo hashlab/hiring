@@ -17,7 +17,7 @@ O teste de SRE é dividido em **arquitetura** e **desenvolvimento** e complement
 > \* Assumir que é uma solução gerenciada. Ex: GKE
 
 #### O resultado deve conter um documento de texto (pdf, markdown, git, etc) contendo a arquitetura proposta e documentação relevante (se houver).
-- **Opcional.** Caso queira demonstrar a arquitetura em código de forma reprodutiva também seria bem legal. (ex. Terraform e/ou outros)
+- **Opcional.** Caso queira demonstrar a arquitetura em código de forma reprodutível também seria bem legal. (ex. Terraform e/ou outros)
 
 ## Desenvolvimento
 
@@ -29,7 +29,7 @@ A aplicação 2 do desafio de backend é um serviço GRPC, desenvolva uma [CLI](
   - Quantas requisições ocorreram com sucesso
   - O [percentil](https://pt.wikipedia.org/wiki/Percentil) ou média de latência do total de requisições realizadas
   - O [percentil](https://pt.wikipedia.org/wiki/Percentil) ou média de latência do total de requisições realizadas por backend (Opcional)
-- Conseguir identificar qual instância do serviço respondeu a requisição (Opcional)
+  - Conseguir identificar qual instância do serviço respondeu a requisição (Opcional)
 
 
 ## Avaliação

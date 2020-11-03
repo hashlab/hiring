@@ -50,7 +50,7 @@ Usuário exemplo:
 
 * As regras de descontos da aplicação são:
   * Se for aniversário do usuário, o produto terá 5% de desconto
-  * Se for black friday (nesse exemplo ela pode ser fixada dia 25/11) o produto terá 10% de desconto
+  * Se for black friday (para esse teste você pode assumir que a data é 25/11) o produto terá 10% de desconto
   * O desconto não pode passar de 10%
 
 

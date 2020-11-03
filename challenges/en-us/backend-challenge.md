@@ -35,7 +35,7 @@ Sample product schema:
     title: string
     description: string
     discount: {
-        pct: float
+        percentage: float
         value_in_cents: int
     }
 }

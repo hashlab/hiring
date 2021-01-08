@@ -1,6 +1,6 @@
 # Hash Teste SRE
 
-Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
+Antes de começar, leia a nossa [página sobre cultura](https://tech-culture.hash.com.br/) para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
 
 O teste de SRE é dividido em **arquitetura** e **desenvolvimento** e complementa o [desafio de back end](https://github.com/hashlab/hiring/blob/master/challenges/pt-br/back-challenge.md).
 

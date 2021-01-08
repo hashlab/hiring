@@ -1,6 +1,6 @@
 # Hash Mobile Challenge
 
-First of all, we recommend you to read our [key values](https://www.keyvalues.com/hash) to understand what we prioritize in development process. We hope you do your best as we will evaluate that way. ;)
+First of all, we recommend you to read our [tech culture page](https://tech-culture.hash.com.br/) to understand what we prioritize in development process. We hope you do your best as we will evaluate that way. ;)
 
 ## General Rules
 

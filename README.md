@@ -20,6 +20,6 @@ Today we are building:
 
 We are looking for people passionate for coding, with experience on building scalable products and exceptional technical background.
 
-Technology is the most important part of our business, so we need people who want to know more about our market, about how the payment ecosystem works, and help us change it. We want people that connect with our business and we want to build something that will change Brazil. To help finding people that match with us, we've broken down our engineering team core values, you can find them in our [Key:Values page](https://www.keyvalues.com/hash) and see if it fits you.
+Technology is the most important part of our business, so we need people who want to know more about our market, about how the payment ecosystem works, and help us change it. We want people that connect with our business and we want to build something that will change Brazil. To help finding people that match with us, we've broken down our engineering team core values, you can find them in our [Tech culture page](https://tech-culture.hash.com.br/) and see if it fits you.
 
-If you can relate to our mission and want to join us, [check out our current open jobs](https://boards.greenhouse.io/hash)
+If you can relate to our mission and want to join us, [check out our current open jobs](https://jobs.lever.co/hash)

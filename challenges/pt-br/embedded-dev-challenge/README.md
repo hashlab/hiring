@@ -1,8 +1,9 @@
 # Hash - Exercício Desenvolvedor C Linux
 
-Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash)
-para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça
-seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
+Antes de começar, leia a nossa
+[página sobre cultura](https://tech-culture.hash.com.br/) para entender um
+pouco sobre o que nós priorizamos no desenvolvimento e faça seu melhor, pois
+iremos avaliar o teste como se fosse seu melhor esforço ;)
 
 O teste consiste no desenvolvimento de uma biblioteca C para trabalhar com
 objetos BER-TLV. A biblioteca deverá ser capaz de interpretar objetos BER-TLV

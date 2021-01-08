@@ -1,6 +1,6 @@
 # Hash Teste Infrastructure developer
 
-Antes de começar, leia os nossos [key values](https://www.keyvalues.com/hash) para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
+Antes de começar, leia a nossa [página sobre cultura](https://tech-culture.hash.com.br/) para entender um pouco sobre o que nós priorizamos no desenvolvimento e faça o seu melhor, pois iremos avaliar o teste como se fosse seu melhor esforço ;)
 
 
 O desafio é baseado nos serviços do diretório [./services](./services) leia-os antes de prosseguir.

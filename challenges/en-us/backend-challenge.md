@@ -76,4 +76,4 @@ This service exposes a HTTP endpoint `GET /product` that returns a list of produ
 7. Following the industry standard style guide.
 8. A git history (even if brief) with clear, concise commit messages.
 
-Also if you'd like to know more about our developer culture, how we think and work in terms of development, check out our  [key values](https://www.keyvalues.com/hash).
+Also if you'd like to know more about our developer culture, how we think and work in terms of development, check out our [tech culture page](https://tech-culture.hash.com.br/)

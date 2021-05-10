@@ -17,5 +17,5 @@ Obrigado por dedicar um tempo extra para completar este desafio. A solução ent
    
 3)  No diretório do desafio há uma aplicação. Crie os manifestos do Kubernetes e faça o deploy da aplicação no cluster.
    
-4)  Monitore o cluster do Kubernetes definindo alertas importantes e crie dashboards que mostrem o estado do cluster.
+4)  Monitore o cluster do Kubernetes definindo alertas importantes e crie dashboards que mostrem seu estado.
 

@@ -25,4 +25,4 @@ Obrigado por dedicar um tempo extra para completar este desafio. A solução ent
    
 Plus:
 
-   - Monitore o cluster do Kubernetes definindo alertas importantes e crie dashboards que mostrem seu estado.
+- Monitore o cluster do Kubernetes definindo alertas importantes e crie dashboards que mostrem seu estado.

@@ -21,7 +21,7 @@ Obrigado por dedicar um tempo extra para completar este desafio. A solução ent
    
 - Utilize a ferramenta de sua preferência e crie um pipeline de CI/CD para o Terraform.
    
-- No diretório do desafio há uma aplicação. Crie os manifestos do Kubernetes e faça o deploy da aplicação no cluster.
+- No diretório do desafio há uma aplicação. Crie os manifestos do Kubernetes e faça o deploy da aplicação no cluster. Caso seja necessário, você poderá modificar o código.
    
 Plus:
 

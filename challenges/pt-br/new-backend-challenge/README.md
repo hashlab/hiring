@@ -27,7 +27,7 @@ Após receber a requisição deverão ser aplicadas as seguintes regras:
 
 ### Regra número 1
 
-Para cada produto você precisará calcular a porcentagem de desconto e isso deve ser feito consumindo um serviço gRPC fornecido por nós para auxiliar no seu teste. Utilize a imagem Docker para subir esse serviço de desconto e o arquivo proto para gerar o cliente na linguagem escolhida. Você pode encontrar como gerar um cliente gRPC nas documentações oficiais da ferramenta e em outros guias encontrados na internet.
+Para cada produto você precisará calcular a porcentagem de desconto e isso deve ser feito consumindo um serviço gRPC fornecido por nós para auxiliar no seu teste. Utilize a [imagem Docker](https://hub.docker.com/r/hashorg/hash-mock-discount-service) para subir esse serviço de desconto e o [arquivo proto](https://github.com/hashlab/hiring/blob/master/challenges/pt-br/new-backend-challenge/discount.proto) para gerar o cliente na linguagem escolhida. Você pode encontrar como gerar um cliente gRPC nas documentações oficiais da ferramenta e em outros guias encontrados na internet.
 
 ### Regra número 2
 

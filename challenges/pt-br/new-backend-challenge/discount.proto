@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package discount;
+
+// Service that return mocked discount percentage.
+service Discount {
+  rpc GetDiscount(GetDiscountRequest) returns (GetDiscountResponse) {}
+}
+
+// productID used to represent a product. Ilustrative only.
+message GetDiscountRequest {
+  int32 productID = 1;
+}
+
+// The discount percentage is a fixed value.
+message GetDiscountResponse {
+  float percentage = 1;
+}

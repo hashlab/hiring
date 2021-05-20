@@ -85,6 +85,8 @@ A resposta da API deverá trazer o valor total do carrinho com e sem desconto, v
 - Iremos testar sua API apenas com payloads de formato válido então não é necessário fazer esse tipo de validação (vale notar que é aqui nos referimos apenas ao formato do payload, porém é necessário validar, por exemplo. se os produtos da lista existem)
 - Fique à vontade em escolher a linguagem e framework para o desenvolvimento da solução
 
+## Dúvidas
+
 Fique à vontade para nos acessar enquanto estiver desenvolvendo o teste. Qualquer dúvida sua pode ser esclarecida diretamente com a recruiter responsável pelo seu processo.
 
 Boa atividade!

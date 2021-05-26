@@ -43,7 +43,7 @@ A data da Black Friday fica a seu critério.
 
 ### Regra número 4
 
-Deverá existir apenas uma entrada de produto brinde no carrinho. Caso seja black friday e aniversário, ainda assim o usuário só receberá um único brinde.
+Deverá existir apenas uma entrada de produto brinde no carrinho. 
 
 ### Regra número 5
 

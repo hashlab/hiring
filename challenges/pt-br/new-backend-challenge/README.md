@@ -93,8 +93,7 @@ A resposta da API deverá trazer o valor total do carrinho com e sem desconto, v
 
 ## Não se preocupe
 
-- Você receberá a base de dados de produtos e usuários em um arquivo JSON, não sendo necessário utilizar algum banco de dados ou implementar um CRUD. Você pode utilizar o JSON na memória da sua API.
-- Não é necessário criar um serviço extra de autenticação.
+- Você receberá a base de dados de produtos em um arquivo JSON, não sendo necessário utilizar algum banco de dados ou implementar um CRUD. Você pode utilizar o JSON na memória da sua API.
 - Fique à vontade em escolher a linguagem e framework para o desenvolvimento da solução
 
 ## Dúvidas

@@ -6,7 +6,9 @@ Estamos felizes por você ter chegado até aqui! Agora é a hora de conhecermos 
 
 ## API de carrinho
 
-Você deverá implementar uma API HTTP (JSON) de e-commerce (venda online) e que terá um endpoint de carrinho (checkout). Esse endpoint aceitará uma requisição com método POST, header X-USER-ID contendo o id de um usuário e a estrutura do payload de requisição deve seguir o exemplo:
+Você deverá implementar uma API HTTP (JSON) de e-commerce (venda online) e que terá um endpoint de carrinho (checkout). Esse endpoint aceitará uma requisição com método POST, a estrutura do payload de requisição deve seguir o exemplo:
+
+Em resumo a requisição deve conter uma lista de produtos e a quantidade de cada um a ser comprado.
 
 ```javascript
 {
@@ -19,7 +21,9 @@ Você deverá implementar uma API HTTP (JSON) de e-commerce (venda online) e que
 }
 ```
 
-Em resumo a requisição deve conter uma lista de produtos e a quantidade de cada um a ser comprado.
+## Base de dados
+
+Você deve utilizar o conteúdo do arquivo JSON `products.json`, como fonte de dados para a API. Não sendo necessário modelar ou utilizar algum tipo de banco de dados para o teste.
 
 ## Regras
 
@@ -30,38 +34,48 @@ Após receber a requisição deverão ser aplicadas as seguintes regras:
 Para cada produto você precisará calcular a porcentagem de desconto e isso deve ser feito consumindo um serviço gRPC fornecido por nós para auxiliar no seu teste. Utilize a [imagem Docker](https://hub.docker.com/r/hashorg/hash-mock-discount-service) para subir esse serviço de desconto e o [arquivo proto](https://github.com/hashlab/hiring/blob/master/challenges/pt-br/new-backend-challenge/discount.proto) para gerar o cliente na linguagem escolhida. Você pode encontrar como gerar um cliente gRPC nas documentações oficiais da ferramenta e em outros guias encontrados na internet.
 
 ### Regra número 2
-
-Caso o serviço de desconto esteja indisponível o endpoint deverá continuar funcionando porém não vai realizar o cálculo com desconto.
+Caso o serviço de desconto esteja indisponível o endpoint de carrinho deverá continuar funcionando porém não vai realizar o cálculo com desconto.
 
 ### Regra número 3
 
-Durante o cálculo do valor total deverá ser considerada a quantidade do produto.
+Deverá ser verificado se é black friday, e caso seja você deve adicionar um produto brinde no carrinho. Lembrando que os produtos brindes possuem a flag `is_gift = true`.
+A data da Black Friday fica a seu critério.
 
 ### Regra número 4
 
-Deverá ser verificado se é o aniversário do usuário recebido via header e caso seja você deve adicionar um produto brinde ao carrinho.
+Deverá existir apenas uma entrada de produto brinde no carrinho. Caso seja black friday e aniversário, ainda assim o usuário só receberá um único brinde.
 
 ### Regra número 5
 
-Deverá ser verificado se é black friday (para simplificar você pode escolher uma data fixa) e caso seja você deve adicionar um produto brinde ao carrinho se nenhum outro já tiver sido adicionado (apenas um produto brinde por carrinho).
+É mandatório o uso de Docker para rodar a aplicação, de preferência utilizar docker-compose, pois facilitará o processo de correção.
 
 ## Resposta da API
 
 A resposta da API deverá trazer o valor total do carrinho com e sem desconto, valor total de descontos e a lista de produtos com seus descontos individuais. A resposta deverá respeitar a estrutura do seguinte payload de exemplo:
 
+*Todos os valores monetários devem estar em centavos.*
+
 ```javascript
 {
-    "total_amount": 200, // Valor total da compra sem desconto
-    "total_amount_with_discount": 170, // Valor total da compra com desconto
-    "total_quantity": 30, // Quantidade total de produtos (considerando quantidade)
+    "total_amount": 20000, // Valor total da compra sem desconto
+    "total_amount_with_discount": 19500, // Valor total da compra com desconto
+    "total_discount": 500, // Valor total de descontos
     "products": [
         {
             "id": 1,
             "quantity": 2,
-            "amount": 100, // Preço do produto
-            "total_amount": 200, // Valor total na compra desse produto
-            "discount": 30,
-            "Is_gift": false // É brinde?
+            "unit_amount": 10000, // Preço do produto em centavos
+            "total_amount": 20000, // Valor total na compra desse produto em centavos
+            "discount": 500, // Valor total de desconto em centavos
+            "is_gift": false // É brinde?
+        },
+        {
+            "id": 3,
+            "quantity": 1,
+            "unit_amount": 0, // Preço do produto em centavos
+            "total_amount": 0, // Valor total na compra desse produto em centavos
+            "discount": 0, // Valor total de desconto em centavos
+            "is_gift": true // É brinde?
         }
     ]
 }
@@ -69,9 +83,9 @@ A resposta da API deverá trazer o valor total do carrinho com e sem desconto, v
 
 ## O que vai ser avaliado?
 
-- Documentação
-- Testes automatizados
-- O quanto sua aplicação está pronta para produção (logs, configuração flexível e etc): é mandatório o uso de Docker para rodar a aplicação
+- Documentação sobre como subir e executar o seu teste
+- Testes unitários, não se preocupe com coverage
+- Configuração flexível (uso de envvars etc) 
 - Histórico de commits
 - Qualidade do código: legibilidade, estrutura e facilidade de manutenção
 - Funcionamento das regras
@@ -79,10 +93,8 @@ A resposta da API deverá trazer o valor total do carrinho com e sem desconto, v
 
 ## Não se preocupe
 
-- Você pode popular seu banco de dados manualmente portanto não é necessário um CRUD de produtos
-- Não é necessário criar um serviço extra de autenticação ou mesmo de usuário, para simplificar esse teste você pode usar um banco de dados único e fazer todos acessos a partir da API
-- Não é necessário ter 100% de cobertura de testes, foque em testar os casos de uso mais relevantes
-- Iremos testar sua API apenas com payloads de formato válido então não é necessário fazer esse tipo de validação (vale notar que é aqui nos referimos apenas ao formato do payload, porém é necessário validar, por exemplo. se os produtos da lista existem)
+- Você receberá a base de dados de produtos e usuários em um arquivo JSON, não sendo necessário utilizar algum banco de dados ou implementar um CRUD. Você pode utilizar o JSON na memória da sua API.
+- Não é necessário criar um serviço extra de autenticação.
 - Fique à vontade em escolher a linguagem e framework para o desenvolvimento da solução
 
 ## Dúvidas

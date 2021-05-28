@@ -100,4 +100,4 @@ A resposta da API deverá trazer o valor total do carrinho com e sem desconto, v
 
 Fique à vontade para nos acessar enquanto estiver desenvolvendo o teste. Qualquer dúvida sua pode ser esclarecida diretamente com a recruiter responsável pelo seu processo.
 
-Boa atividade!
+Boa atividade e encaminhe seu teste finalizado para a recruiter responsável pelo seu processo.

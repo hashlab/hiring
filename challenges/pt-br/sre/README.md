@@ -8,8 +8,7 @@ Estamos à disposição em caso de dúvidas. Um excelente exercício pra você.
 
 - Que seu código seja facilmente reprodutível.
 - Que você gere documentação.
-- Monitorações básicas para operar o cluster.
-- Fluxo de CI/CD com as melhores práticas.
+- Que seja utilizado um fluxo de CI/CD.
 
 # Antes de Começar
 
@@ -21,12 +20,12 @@ Estamos à disposição em caso de dúvidas. Um excelente exercício pra você.
 
 # O Desafio
 
-- Utilizando o Terraform, crie um cluster do Kubernetes em algum *cloud provider*. Você poderá utilizar uma solução gerenciada como, por exemplo, o EKS ou GKE.
-   
-- Utilize a ferramenta de sua preferência e crie um pipeline de CI/CD para o Terraform.
-   
-- No diretório do desafio há uma aplicação. Crie os manifestos do Kubernetes e faça o deploy da aplicação no cluster. Caso seja necessário, você poderá modificar o código.
-   
-Plus:
+1) Utilizando o Terraform, crie um cluster do Kubernetes em algum *cloud provider*. Você poderá utilizar uma solução gerenciada como, por exemplo, o EKS ou GKE.
 
-- Monitore o cluster do Kubernetes definindo alertas importantes e crie dashboards que mostrem seu estado.
+2) Utilize a ferramenta de sua preferência e crie um pipeline de CI/CD para a criação da infraestrutura.
+   
+3) No diretório do desafio há uma aplicação. Crie os manifestos do Kubernetes e faça o deploy da aplicação no cluster. Você é livre para fazer melhorias no código, caso seja necessário.
+
+4) De forma descritiva, proponha uma forma de monitorar o cluster e a aplicação definindo alertas importantes. Como sugestão, crie um diagrama para elucidar sua explicação.  
+   
+5) (Opcional) Implemente sua proposta de monitoramento.

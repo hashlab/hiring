@@ -1,25 +1,25 @@
-# Hiring
+# Trabalhe conosco
 
-Hi! If you are reading this you might be interested in working with us.
+[Clique aqui para ver todas nossas vagas](https://jobs.lever.co/hash)
 
-We are Hash, an infrastructure for payments and financial services, and our mission is to enable anyone to build the best financial experience.
+# Sobre nós
 
-We are constantly seeking people that want to change the way the payment market is structured today. We are building a new infrastructure that allows the entrance of new payment players on a R$1.4tri market dominated by a few companies for the past 15 years. We do this by offering a platform where any company can be their own payment service.
+Surgimos para facilitar a relação entre as empresas e sua cadeia de clientes. O nosso produto é uma plataforma de meios de pagamento capaz de transformar qualquer empresa B2B em uma prestadora de serviços financeiros para comércios, aprimorando ainda mais as vantagens de negócio deles e dos seus clientes.
 
-To build this infrastructure, we need to make an amazing and scalable product. We need the best developers. "Move fast and break things" doesn't really work for the type of system that we want. We tend to reduce technical debt and prioritize quality over a fast release.
+Para realizar essa transformação, independência uma solução Whitelabel e Plug-and-Play que elimina o tempo de implementação em tecnologia e reduz o investimento inicial e os custos demais operacionais em até 95%.
 
-We are not attached to a specific set of programming languages or architecture, we have several challenges and we are free to choose the best way to attack each one of them, following state-of-the-art software development practices and choosing the best programming language and stack to solve what we need.
+Porém, para cuidar de nossos clientes, sabemos que precisamos também cuidar dos nossos Hashers. Por isso, mesmo antes da pandemia, nós já apostávamos em horários flexíveis e em profissionais remotos - hoje temos times por todo o Brasil!
 
-Today we are building:
+Acreditamos que pessoas felizes e saudáveis constroem equipes mais fortes e integradas, e para isso, promovemos ações de bem-estar físico/mental e oferecemos um conjunto de benefícios que contemplam o desenvolvimento profissional e ações de engajamento.
 
-* Horizontally scalable micro-services written mostly in Node.js or Go
-* Data storage in MongoDB and Postgres
-* Continuous Integration and Deployment into AWS, GCLOUD and Azure
-* A highly modular front-end that integrates the design team in the development process
-* A modular, cross-platform, highly customizable mobile app
+# Como é fazer parte do nosso time de tecnologia
 
-We are looking for people passionate for coding, with experience on building scalable products and exceptional technical background.
+Valorizamos comunicação, trabalho colaborativo, transparência e autonomia. Nosso time de tecnologia tem uma cultura sólida que forma nossa mentalidade e nos guia para abordar situações, tomar decisões e trabalhar melhor em grupo.
 
-Technology is the most important part of our business, so we need people who want to know more about our market, about how the payment ecosystem works, and help us change it. We want people that connect with our business and we want to build something that will change Brazil. To help finding people that match with us, we've broken down our engineering team core values, you can find them in our [tech culture page](https://tech-culture.hash.com.br/) and see if it fits you.
+Nossa prioridade é construir uma base de código de alta qualidade. Temos grande foco no nosso produto e, assim, fazemos mais que desenvolver software: nós criamos um serviço inovador que transforma empresas e pessoas ajuda.
 
-If you can relate to our mission and want to join us, [check out our current open jobs](https://jobs.lever.co/hash)
+Possuímos um grande senso de responsabilidade e, com ele, uma autonomia para proporções, trazer soluções e indicar pontos de melhoria. Aqui, flexibilidade, autonomia e responsabilidade e juntas juntas.
+
+Cada Hasher é uma peça fundamental para o nosso sucesso. Somos colaborativos sem deixar ninguém sozinho. A comunicação entre os tempos e a liberdade para pedir e oferecer ajuda são mais do que aceitas - elas são incentivadas.
+
+Acesse o [documento da nossa cultura interna](https://tech-culture.hash.com.br/) para conhecer mais sobre os nossos valores.

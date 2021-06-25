@@ -1,7 +1,6 @@
 syntax = "proto3";
 
 package discount;
-option go_package = "/pkg/discountpb";
 
 // Service that return mocked discount percentage
 service Discount {

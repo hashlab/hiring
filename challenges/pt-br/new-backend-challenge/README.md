@@ -84,7 +84,7 @@ A resposta da API deverá trazer o valor total do carrinho com e sem desconto, v
 ## O que vai ser avaliado?
 
 - Documentação sobre como subir e executar o seu teste
-- Testes unitários, não se preocupe com coverage
+- Bons testes unitários (não se preocupe em alcançar 100% de cobertura no projeto)
 - Configuração flexível (uso de envvars etc) 
 - Histórico de commits
 - Qualidade do código: legibilidade, estrutura e facilidade de manutenção

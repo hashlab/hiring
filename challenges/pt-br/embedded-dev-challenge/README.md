@@ -73,3 +73,4 @@ objetos BER-TLV.
 5. Conversaremos sobre estrutura de código, lógica e decisões tomadas.
 6. Considere a possibilidade de evolução e trabalho em time
 na manutenção da biblioteca desenvolvida.
+7. Um histórico do git (mesmo que breve) com mensagens de commit claras e concisas

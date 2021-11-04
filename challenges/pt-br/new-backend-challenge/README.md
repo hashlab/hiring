@@ -38,7 +38,7 @@ Caso o serviço de desconto esteja indisponível o endpoint de carrinho deverá 
 
 ### Regra número 3
 
-Deverá ser verificado se é black friday, e caso seja você deve adicionar um produto brinde no carrinho. Lembrando que os produtos brindes possuem a flag `is_gift = true`.
+Deverá ser verificado se é black friday e caso seja, você deve adicionar um produto brinde no carrinho. Lembrando que os produtos brindes possuem a flag `is_gift = true` e não devem ser aceitos em requisições para adicioná-los ao carrinho (em uma loja virtual, esse produto não deveria ir para "vitrine").
 A data da Black Friday fica a seu critério.
 
 ### Regra número 4
